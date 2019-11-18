@@ -1,13 +1,21 @@
 import React from 'react';
 import SampleComponent from './SampleComponent';
-import EmployeeListComponent from './Components/EmployeeListComponent';
+//import EmployeeListComponent from './Components/EmployeeListComponent';
+import UseStateComponent from './Components/UseStateComponent';
+import UseReducerComponent from './Components/UseReducerComponent';
+import CallBacksDownComponent from './Components/CallBacksDownComponent';
+import AvoidCallBacksDownComponent from './Components/AvoidCallBacksDownComponent';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <SampleComponent name="ReactJS"/>
-      <EmployeeListComponent />
+      <UseStateComponent initialValue={0}/>
+      <UseReducerComponent initialValue={0} />
+      <CallBacksDownComponent initialValue={0} />
+      <AvoidCallBacksDownComponent initialValue={0} />
     </div>
   );
 }
