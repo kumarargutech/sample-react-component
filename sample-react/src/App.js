@@ -5,6 +5,7 @@ import UseStateComponent from './Components/UseStateComponent';
 import UseReducerComponent from './Components/UseReducerComponent';
 import CallBacksDownComponent from './Components/CallBacksDownComponent';
 import AvoidCallBacksDownComponent from './Components/AvoidCallBacksDownComponent';
+import LifeCycleComponent from './Components/LifeCycleComponent';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
       <UseReducerComponent initialValue={0} />
       <CallBacksDownComponent initialValue={0} />
       <AvoidCallBacksDownComponent initialValue={0} />
+      <LifeCycleComponent bkgroundColor="yellow"/>
     </div>
   );
 }
